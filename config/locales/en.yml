@@ -23,3 +23,7 @@ en:
   app_title: My Notes
   app_description: A place where you can keep all of your notes.
   
+  home:
+    home:
+      title: My Notes
+      welcome: Welcome to my notes site!
