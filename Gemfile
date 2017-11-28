@@ -45,3 +45,9 @@ group :development do
   gem 'spring'
 end
 
+#sets default view language as HAML rather than ERB
+gem 'haml-rails'
+#Includes Bootstrap - used to build responsive websites. Allows cross-browser
+gem 'bootstrap-sass', '~> 3.3.6'
+#Allows work cross-browser
+gem 'modernizr-rails'
