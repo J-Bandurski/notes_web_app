@@ -3,6 +3,7 @@
 %table
   %thead
     %tr
+      %th Date
       %th Title
       %th Description
       %th
@@ -12,6 +13,7 @@
   %tbody
     - @notes.each do |note|
       %tr
+        %td= note.created_at.strftime("%d-%m-%Y")
         %td= note.title
         %td= note.description
         %td= link_to 'Show', note
