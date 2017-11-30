@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
 
+<<<<<<< HEAD
   resources :posts
+=======
+>>>>>>> a5d0d164b69b74a6b48327d5fc3f099d774a13e3
   resources :topics
   resources :notes
   root 'home#home'

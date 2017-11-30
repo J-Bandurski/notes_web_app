@@ -2,8 +2,16 @@
 
 one:
   title: MyString
+<<<<<<< HEAD
   body: MyText
 
 two:
   title: MyString
   body: MyText
+=======
+  url: MyString
+
+two:
+  title: MyString
+  url: MyString
+>>>>>>> a5d0d164b69b74a6b48327d5fc3f099d774a13e3

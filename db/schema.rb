@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171129233510) do
+ActiveRecord::Schema.define(version: 20171130102221) do
 
   create_table "notes", force: :cascade do |t|
     t.string   "title",       null: false
@@ -21,5 +21,12 @@ ActiveRecord::Schema.define(version: 20171129233510) do
   end
 
   add_index "notes", ["title"], name: "index_notes_on_title", unique: true
+
+  create_table "topics", force: :cascade do |t|
+    t.string   "title"
+    t.string   "url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 end
