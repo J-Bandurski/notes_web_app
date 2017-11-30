@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+welcome = Note.where(title: 'Welcome').first
+welcome.delete if welcome
+
+notes = Note.create([title: 'Welcome', description: 'To the notes app.'])
