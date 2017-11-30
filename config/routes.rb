@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :posts
+  resources :topics
   resources :notes
   root 'home#home'
   
